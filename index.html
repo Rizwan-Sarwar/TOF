@@ -31,34 +31,35 @@
                             d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z">
                         </path>
                     </svg>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li>
                         <a href="#">For Voter</a>
                         <ul>
-                            <li><a href="#">How to Register</a></li>
-                            <li><a href="#">Check your registration</a></li>
-                            <li><a href="#">FAQs</a></li>
+                            <li><a href="how_to_register.html">How to Register</a></li>
+                            <li><a href="check_your_registration.html">Check your registration</a></li>
+                            <li><a href="faqs.html">FAQs</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#">Parties & Candidates</a>
                         <ul>
-                            <li><a href="#">Parties with Symbols</a></li>
-                            <li><a href="#">Candidates</a></li>
+                            <li><a href="parties_with_symbols.html">Parties with Symbols</a></li>
+                            <li><a href="avalible_symbols.html">Candidates</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Result</a></li>
                     <li>
                         <a href="#">Candidate Registration</a>
                         <ul>
-                            <li><a href="#">Registration Requirements of Candidates for Election</a></li>
+                            <li><a href="electoral_rolls.html">Registration Requirements of Candidates for Election</a>
+                            </li>
                         </ul>
                     </li>
                     <li>
                         <a href="#">Usefull Links</a>
                         <ul>
-                            <li><a href="#">Election Laws</a></li>
-                            <li><a href="#">List of Political Parties</a></li>
+                            <li><a href="election_laws.html">Election Laws</a></li>
+                            <li><a href="list_of_political_parties.html">List of Political Parties</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Main Site</a></li>
@@ -449,14 +450,6 @@
 </body>
 
 <script>
-    // let sideBar = document.querySelector(".sidebar");
-    // let sideBarCloser = document.querySelector(".close-filter");
-    // document.querySelector(".filter-opener").addEventListener("click", () => {
-    //     sideBar.style.display = "block"
-    // })
-    // sideBarCloser.addEventListener("click", () => {
-    //     sideBar.style.display = "none"
-    // })
     $(".filter-opener").click(function () {
         $('.sidebar').animate({
             width: 'toggle'
